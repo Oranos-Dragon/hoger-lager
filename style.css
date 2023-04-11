@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    font-family: verdana;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+width: 900px;
+float: left;
+}
+
+header > p {
+    margin-left: 390px;
+    margin-top: 50px;
+}
+
+.wrapper {
+    background-color: orange;
+    width: 900px;
+    height: 660px;
+    margin: auto;
+}
+
+p {
+background-color: black;
+color: white;
+float: left;
+padding: 10px;
+}
+
+.gegeven {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    position: absolute;
+    top: 200px;
+}
+
+#gegevenNummer {
+  text-align: center; 
+  margin-top: 25%;
+  font-size:100px ;
+}
+
+
+.antwoord {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    float: left;
+    position:absolute;
+    top: 200px;
+}
+
+.gegeven p {
+    text-align: center;
+    width: 180px;
+
+}
+
+.antwoord p {
+    width: 180px;
+    text-align: center;
+}
+
+.punten {
+    position: absolute;
+    float: left;
+    top: 500px;
+    margin-left: 385px;
+    width: auto
+}
+
+.punten article {
+    background-color: white;
+    width: auto;
+    height: 100px;
+}
+
+.buttons {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 385px;
+}
+
+#winOrLose {
+    position: absolute;
+    top: 250px;
+    margin-left: 430px;
+}
+#antwoordNummer {
+    text-align: center; 
+    margin-top: 25%;
+    font-size:100px ;
+  }
+
+
+
+  #hoger:hover, #lager:hover {
+    cursor:pointer;
+    font-weight: bold;
+}
