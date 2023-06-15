@@ -69,4 +69,3 @@ function lagerFunction() {
           console.log(playerNumber);
           console.log('refresh')
 }
-
